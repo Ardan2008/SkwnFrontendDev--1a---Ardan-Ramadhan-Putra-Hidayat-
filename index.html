@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Dekoor</title>
+</head>
+<body>
+
+  <!-- Header -->
+<header>
+  <div class="container nav-container">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="assets/logo.png" alt="Dekoor Logo" class="logo-img" />
+      Dekoor
+    </div>
+
+    <!-- Navigation (desktop) -->
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#">About Us</a></li>
+        <li class="dropdown">
+          <a href="#">
+            Furniture <span class="material-symbols-outlined">expand_more</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Living Room</a></li>
+            <li><a href="#">Bedroom</a></li>
+            <li><a href="#">Office</a></li>
+            <li><a href="#">Dining</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Partnership</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Action Buttons (desktop) -->
+    <div class="nav-actions">
+      <a href="#" class="btn btn-outline">Sign Up</a>
+      <a href="#" class="cart-icon">
+        <span class="material-symbols-outlined">shopping_bag</span>
+      </a>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenu">
+    <div class="mobile-menu">
+      <ul class="mobile-nav-menu">
+        <li><a href="#">About Us</a></li>
+        <li class="mobile-dropdown">
+          <a href="#" class="dropdown-toggle">
+            Furniture 
+            <span class="material-symbols-outlined">expand_more</span>
+          </a>
+          <ul class="mobile-dropdown-menu">
+            <li><a href="#">Living Room</a></li>
+            <li><a href="#">Bedroom</a></li>
+            <li><a href="#">Office</a></li>
+            <li><a href="#">Dining</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Partnership</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="btn btn-outline mobile-signup">Sign Up</a></li>
+        <li><a href="#" class="cart-icon">
+        <span class="material-symbols-outlined">shopping_bag</span>
+        </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-container">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <h1>
+            The kind of <br />
+            <span style="color: #8B6F47;">furniture</span> you have 
+            been looking for
+          </h1>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" type="button">
+              <span class="material-symbols-outlined">search</span>
+              SEARCH CATALOG
+            </button>
+            <button class="btn btn-watch" type="button">
+              <span class="material-symbols-outlined">play_circle</span>
+              WATCH VIDEOS
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="hero-image">
+          <img src="assets/hero.png" alt="sofa" />
+          <div class="hero-overlay">
+            <span class="hero-price">$329</span>
+            <h3 class="text">Pösht Sofa</h3>
+            <button type="button" class="view-details">
+              VIEW DETAILS
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="choose">
+      <div class="container choose-container">
+        <p class="choose-subtitle">WHY CHOOSE US?</p>
+        <h1 class="choose-title">
+          We care about <span class="highlight">details</span> and the 
+          <span class="highlight">quality</span><br />
+          of our products
+        </h1>
+
+        <div class="choose-list">
+          <div class="choose-item">
+            <span class="material-symbols-outlined">search</span>
+            <p>MANUFACTURED WITH <br /> QUALITY MATERIALS</p>
+          </div>
+          <div class="choose-item">
+            <span class="material-symbols-outlined">timer_5_shutter</span>
+            <p>5 YEARS OF WARRANTY <br /> FOR EACH PRODUCT</p>
+          </div>
+          <div class="choose-item">
+            <span class="material-symbols-outlined">local_mall</span>
+            <p>20 YEARS OF EXPERTISE</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partnered Brands -->
+    <section class="partnered">
+      <div class="container-partnered">
+        <div class="partnered-text">
+          <div class="title">25+</div>
+          <div class="subtitle">PARTNERED BRANDS</div>
+        </div>
+
+        <!-- Logos -->
+        <div class="logos">
+          <div class="logo gusto">gusto</div>
+          <div class="logo stripe">stripe</div>
+          <div><img src="assets/treehouse.png" alt="treehouse-logo" /></div>
+          <div><img src="assets/upwork.png" alt="upwork-logo" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Furniture Recommendation -->
+    <section class="furniture-recommendations">
+      <div class="rekomendasi-img">
+        <img src="assets/categories/01.jpg" alt="Bedroom" />
+        <img src="assets/categories/02.jpg" alt="Living Room" />
+        <img src="assets/categories/03.jpg" alt="Home Office" class="unic" />
+      </div>
+
+      <div class="rekomendasi-text">
+        <p class="category-label">Categories</p>
+        <h2>Furniture Sets Recommendation</h2>
+
+        <div class="category-list">
+          <div class="category-item">
+            <p class="category-name">Bedroom</p>
+          </div>
+          <div class="category-item room">
+            <p class="category-room">Living Room</p>
+            <p class="category-description">
+              Enjoy a great living room aesthetics with your family.
+              Designs created for increased comfortability.
+            </p>
+          </div>
+          <div class="category-item">
+            <p class="category-name">Home Office</p>
+          </div>
+          <div class="category-item">
+            <p class="category-name">Gaming Room</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CAROUSEL -->
+    <section class="best-seller">
+      <div class="container-best">
+        <div class="section-header">
+          <div>
+            <p class="subtitle">OUR PRODUCTS</p>
+            <h2>This month's best seller</h2>
+          </div>
+          <a href="#" class="see-more">SEE MORE</a>
+        </div>
+
+        <div class="carousel-wrapper">
+          <div id="carousel" class="carousel-container">
+            <!-- Card akan digenerate otomatis oleh JS -->
+          </div>
+
+          <!-- TOMBOL NAVIGASI DIPINDAH KE SINI (BAWAH) -->
+          <div class="carousel-nav-bottom">
+            <button id="prevBtn" class="nav-btn">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button id="nextBtn" class="nav-btn">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- limited deals -->
+    <section class="deals">
+      <div class="txt">
+        <h3>LIMITED DEALS</h3>
+      </div>
+      <div class="main-text">
+        <h1>Become a member and get 10% off of your first purchase</h1>
+      </div>
+            
+      <form class="email-form">
+        <input type="email" class="email-input" placeholder="Enter your email here" required />
+          <button type="submit" id="submit" aria-label="Send email">
+            <span class="material-symbols-outlined">email</span>
+          </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/logo.png" alt="Dekoor Logo" class="logo-img" />
+            Dekoor
+          </div>
+          <p class="footer-desc">
+            Dekoor is a furniture company created to fulfill the needs of family with aesthetic feeling in their furniture. We always pay attention to details and give clear communication for customers. Our design priority is comfortability.
+          </p>
+          <p class="footer-copyright">
+            &copy; 2025 Dekoor. All rights reserved.
+          </p>
+        </div>
+
+        <!-- Support -->
+        <div class="footer-column">
+          <h3 class="footer-title">Support</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Care guide</a></li>
+            <li><a href="#">Redeem warranty</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-column">
+          <h3 class="footer-title">Social Media</h3>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">TikTok</a></li>
+          </ul>
+        </div>
+
+        <!-- About Us -->
+        <div class="footer-column">
+          <h3 class="footer-title">About Us</h3>
+          <ul>
+            <li><a href="#">Our story</a></li>
+            <li><a href="#">Designer</a></li>
+            <li><a href="#">Craftsmanship</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
