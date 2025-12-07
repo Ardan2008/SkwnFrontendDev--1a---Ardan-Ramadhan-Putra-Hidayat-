@@ -1,5 +1,7 @@
 # ✨ Dekoor — Furniture Landing Page
 
+<img src="Mockup.png" alt="Gambar" width="300">
+
 Landing page ini menampilkan brand **Dekoor**, penyedia furnitur modern dengan fokus pada kualitas, estetika, dan kenyamanan. Website dirancang dengan tampilan bersih dan profesional untuk memperkenalkan produk dan nilai brand secara jelas.
 
 ## Fitur Utama
