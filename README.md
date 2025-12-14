@@ -4,24 +4,24 @@
   <img src="Mockup.png" alt="Dekoor Mockup" width="400">
 </div>
 
-Landing page ini menampilkan brand **Dekoor**, penyedia furnitur modern dengan fokus pada kualitas, estetika, dan kenyamanan. Website dirancang dengan tampilan bersih dan profesional untuk memperkenalkan produk dan nilai brand secara jelas.
+This landing page showcases the brand **Dekoor**, a modern furniture provider with a focus on quality, aesthetics, and comfort. The website is designed with a clean and professional look to clearly introduce the products and brand values.
 
 ---
 
-## 🌟 Fitur Utama
+## 🌟 Key Features
 
-- Hero section dengan CTA utama  
-- Kategori produk: Living Room, Bedroom, Home Office, Dining  
-- Section Best Seller dan Limited Deals  
-- Informasi keunggulan brand: bahan premium, garansi 5 tahun, pengalaman 20+ tahun  
-- Form pendaftaran member untuk diskon pembelian pertama  
-- Footer berisi FAQ, Warranty, Care Guide, dan media sosial  
+- Hero section with main CTA
+- Product categories: Living Room, Bedroom, Home Office, Dining
+- Best Seller and Limited Deals section
+- Brand benefits: premium materials, 5-year warranty, 20+ years of experience
+- Member registration form for first-time purchase discounts
+- Footer with FAQ, Warranty, Care Guide, and social media
 
 ---
 
 ## 🚀 Live Website
 
-Kunjungi di sini:  
+Visit here:
 👉 **https://ardan2008.github.io/SkwnFrontendDev--1a---Ardan-Ramadhan-Putra-Hidayat-/**
 
 ---
